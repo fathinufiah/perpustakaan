@@ -11,7 +11,7 @@ class Ulasanbuku extends Model
     protected $fillable = [
           user,
           buku,
-          ulasan,
+          alasan,
           rating
     ];
 }

@@ -23,5 +23,5 @@ Auth::routes();
 Route::get('/home', function () {
     return view('welcome');
 });
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('name');
     return view('/page.buku', [App\Http\Controllers\BukuController::class, 'index'])->name('buku');

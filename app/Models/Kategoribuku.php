@@ -9,7 +9,7 @@ class Kategoribuku extends Model
 {
     use HasFactory;
     protected $fillable = [
-       buku,
-       Kategori
+       nama_kategori
+       
     ];
 }

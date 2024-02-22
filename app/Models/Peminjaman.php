@@ -13,6 +13,6 @@ class Peminjaman extends Model
         buku,
         tanggal_peminjaman,
         tanggal_pengembalian,
-        status_pemintaan
+        status_peminjaman
     ];
 }
